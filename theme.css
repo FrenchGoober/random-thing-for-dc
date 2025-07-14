@@ -1,0 +1,36 @@
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/BasicBackground/BasicBackground.css");
+
+:root {
+    --background: url("https://raw.githubusercontent.com/FrenchGoober/random-thing-for-dc/main/ddlc.png");
+    --backgroundsize: cover;
+    --backgroundposition: center;
+    --backgroundblur: 0px;
+
+    --popout: var(--background);
+    --popoutsize: cover;
+    --popoutblur: 0px;
+
+    --backdrop: rgba(0,0,0,0.2);
+    --backdropsize: cover;
+    --backdropblur: 0px;
+
+    --transparencycolor: 46,9,26;
+    --transparencyalpha: 0.2;
+    --messagetransparency: 0.5;
+    --guildchanneltransparency: 0.25;
+    --memberlistransparency: 0;
+    --chatinputtransparency: 0.15;
+
+    --accentcolor: 138,18,104;
+    --textshadow: transparent;
+
+    --textbrightest: 255,255,255;
+    --textbrighter: 222,222,222;
+    --textbright: 200,200,200;
+    --textdark: 160,160,160;
+    --textdarker: 125,125,125;
+    --textdarkest: 90,90,90;
+
+    --settingsicons: 1;
+    --version1_0_5: none;
+}
