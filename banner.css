@@ -1,0 +1,8 @@
+
+[style*="--profile-gradient-primary-color: #bbbbe3"],
+
+[style*="--profile-gradient-primary-color: rgb(187, 187, 227)"] {
+    background-image: url("https://raw.githubusercontent.com/FrenchGoober/random-thing-for-dc/main/miku.png") !important;
+    background-size: cover;
+    background-position: center;
+}
