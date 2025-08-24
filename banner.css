@@ -1,8 +1,34 @@
+[style*="--profile-gradient-primary-color"],
+[style*="--profile-gradient-secondary-color"] {
+  position: relative;
+}
 
 [style*="--profile-gradient-primary-color: #bbbbe3"],
+[style*="--profile-gradient-secondary-color: #bbbbe3"],
+[style*="--profile-gradient-primary-color: rgb(187, 187, 227)"],
+[style*="--profile-gradient-secondary-color: rgb(187, 187, 227)"] {
+}
 
-[style*="--profile-gradient-primary-color: rgb(187, 187, 227)"] {
-    background-image: url("https://raw.githubusercontent.com/FrenchGoober/random-thing-for-dc/main/miku.png") !important;
-    background-size: cover;
-    background-position: center;
+[style*="--profile-gradient-primary-color: #bbbbe3"]::before,
+[style*="--profile-gradient-secondary-color: #bbbbe3"]::before,
+[style*="--profile-gradient-primary-color: rgb(187, 187, 227)"]::before,
+[style*="--profile-gradient-secondary-color: rgb(187, 187, 227)"]::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("https://raw.githubusercontent.com/FrenchGoober/random-thing-for-dc/main/miku.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  pointer-events: none;
+  border-radius: inherit;
+  z-index: 0;
+}
+
+[style*="--profile-gradient-primary-color: #bbbbe3"] > *,
+[style*="--profile-gradient-secondary-color: #bbbbe3"] > *,
+[style*="--profile-gradient-primary-color: rgb(187, 187, 227)"] > *,
+[style*="--profile-gradient-secondary-color: rgb(187, 187, 227)"] > * {
+  position: relative;
+  z-index: 1;
 }
